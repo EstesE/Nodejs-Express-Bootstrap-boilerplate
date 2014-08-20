@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "bootstrap": "*",
+        "jquery": "*"
+    },
+    "name": "test",
+    "private": true,
+    "version": "0.0.1"
+}
