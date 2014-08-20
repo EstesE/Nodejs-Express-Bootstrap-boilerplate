@@ -17,6 +17,7 @@
     "bower": "*",
     "hbs": "*",
     "async": "*",
-    "azure": "*"
+    "azure": "*",
+    "mongoose": "~3.8.15"
   }
 }
