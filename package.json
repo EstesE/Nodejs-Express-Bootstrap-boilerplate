@@ -17,6 +17,8 @@
     "hbs": "*",
     "async": "*",
     "azure": "*",
-    "mongoose": "~3.8.15"
+    "mongoose": "*",
+    "nconf": "*",
+    "async": "*"
   }
 }

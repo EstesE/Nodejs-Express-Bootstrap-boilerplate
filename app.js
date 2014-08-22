@@ -5,12 +5,16 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var hbs = require('hbs');
+var connection = require('./modules/db/connection');
 
 // Define routes
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+// Make our connection to mongo
+connection.connect();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
