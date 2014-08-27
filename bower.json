@@ -1,7 +1,8 @@
 {
     "dependencies": {
         "bootstrap": "*",
-        "jquery": "*"
+        "jquery": "*",
+        "requirejs": "*"
     },
     "name": "test",
     "private": true,
