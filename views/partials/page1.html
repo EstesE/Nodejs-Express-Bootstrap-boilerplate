@@ -1,10 +1,20 @@
 <h1>Page 1</h1>
 
+<form style="margin:20px 0">
+    <input type="button" id="default" value="Open with default configuration"><br/>
+    <input type="button" id="sticky" value="Create a &quot;sticky&quot; notification"><br/>
+    <input type="button" id="warning" value="Use icons in your templates"><br/>
+    <input type="button" id="buttons" value="Or buttons even"><br/>
+    <input type="button" id="clickable" value="The entire notification can be clicked on"><br/>
+    <input type="button" id="themeroller" value="ThemeRoller Support">
+</form>
+
+<div id="container" class="ui-notify"></div>
 
 <!-- set the container hidden to avoid a flash of unstyled content
 when the page first loads -->
 
-<div id="container" style="display:none">
+<div id="containerX" style="display:none">
     <!--
     Later on, you can choose which template to use by referring to the
     ID assigned to each template.  Alternatively, you could refer
